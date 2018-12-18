@@ -1,0 +1,2 @@
+# RabbitMQ
+RabbitMQ .Net Library
