@@ -20,7 +20,7 @@ var parser = new RabbitStatusParser();
 
 var res = parser.ParseText(status);
 
-var mgmtDbMemoryStr=res["Status of node 'rabbit@MyMachineName'.memory.mgmt_db"].Value; // assume rabbit@MyMachineName isthe name of the RMQ node name
+var mgmtDbMemoryStr=res["Status of node 'rabbit@MyMachineName'.memory.mgmt_db"].Value; // assume rabbit@MyMachineName is the name of the RMQ node name
 
 var mgmtDbMemory = int.Parse(mgmtDbMemoryStr);
 
